@@ -14,7 +14,11 @@
     <nav>
         <a href="/">home</a>
     </nav>
-    $(pandoc -f markdown -t html $src)
+    <main>
+        <article>
+            $(pandoc -f markdown -t html $src)
+        </article>
+    </main>
 </body>
 
 </html>

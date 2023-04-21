@@ -11,7 +11,11 @@
 </head>
 
 <body>
-    $(pandoc -f markdown -t html5 $src)
+    <main>
+        <article>
+            $(pandoc -f markdown -t html5 $src)
+        </article>
+    </main>
 </body>
 
 </html>
