@@ -5,8 +5,6 @@
 }
 html {
     -webkit-text-size-adjust: 100%;
-    background-color: var(--arc-palette-background);
-    color: var(--arc-palette-maxContrastColor);
 }
 html:focus-within {
     scroll-behavior: smooth;
