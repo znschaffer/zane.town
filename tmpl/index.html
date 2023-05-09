@@ -14,18 +14,18 @@
     <main>
         <article>
             $(pandoc -f markdown -t html5 $src)
-            <h2>Recent Posts</h2>
-            <ul>
-                #!
-                for f in `find src/posts -name '*.md'`; do
-                f="${f#src/posts/}"
-                f="${f%.md}"
-                #!
-                <li style="list-style:square"><a href="posts/${f}.html">$f</a></li>
-                #!
-                done
-                #!
-            </ul>
+            <!-- <h2>Recent Posts</h2> -->
+            <!-- <ul> -->
+            <!--     #! -->
+            <!--     for f in `find src/posts -name '*.md'`; do -->
+            <!--     f="${f#src/posts/}" -->
+            <!--     f="${f%.md}" -->
+            <!--     #! -->
+            <!--     <li style="list-style:square"><a href="posts/${f}.html">$f</a></li> -->
+            <!--     #! -->
+            <!--     done -->
+            <!--     #! -->
+            <!-- </ul> -->
 
         </article>
     </main>
