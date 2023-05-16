@@ -5,7 +5,7 @@
 }
 html {
     -webkit-text-size-adjust: 100%;
-    filter: drop-shadow(0px 0px 1000px #00F);
+filter: drop-shadow(50px 0px 1000px #0000FF66);
 }
 html:focus-within {
     scroll-behavior: smooth;
